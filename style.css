@@ -1,0 +1,274 @@
+.triangle_down {
+    position: relative;
+    top: -5px;
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-right: 0.2em solid black;
+    border-top: 0.2em solid black;
+    transform: rotate(135deg);
+    margin-right: 0.5em;
+    margin-left: 49%;
+    margin-top: 2.5cm;
+
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+.hero {
+    background-color: #eef1ef;
+    height: 15cm;
+    padding: 30px;
+    border: none;
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    color: #3a4443;
+    text-align: center;
+}
+
+.heropara {
+    text-align: center;
+    color: #9aa29a;
+    font-family: Montserrat, sans-serif;
+    font-size: larger;
+
+}
+
+.body {
+    background-color: #ffbb6e;
+    padding-top: 15mm;
+    padding-bottom: 20mm;
+    height: 8cm;
+
+
+}
+
+h2 {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.bodypara {
+    font-weight: 300;
+    text-align: center;
+    color: #3a4443;
+    font-family: Montserrat, sans-serif;
+    font-size: x-large;
+    line-height: 35.84px
+}
+
+.heroimg {
+    height: 130px;
+    width: 130px;
+    display: block;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1cm;
+    border-radius: 50%;
+    padding-top: 60px;
+
+
+}
+
+hr {
+    top: 20px;
+    border: none;
+    height: 12px;
+    width: 50px;
+    background: black;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+hr.hrbody {
+    background: #eef1ef;
+}
+
+.body2 {
+    background-color: #eef1ef;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.body2-image {
+    height: 50px;
+
+}
+
+h3 {
+    font-family: mont;
+    font-weight: 600;
+    font-size: x-large;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.grid-item {
+    padding-left: 10px;
+
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+    line-height: 22px;
+    line-height: 30px;
+    color: #424f40;
+    font-weight: 500;
+
+}
+
+hr.hrbody2 {
+    background: #ffbb6e;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+    height: 80px;
+
+}
+
+.body3 {
+    padding: 100px;
+}
+
+.body3.grid-container {
+    padding-left: 16px;
+    padding-right: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body3 .grid-item h2 {
+    text-align: left;
+    margin-bottom: 0px;
+
+}
+
+.body3 .grid-item p {
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    font-weight: 200;
+    font-size: x-large;
+
+
+}
+
+.body3.hrbody2 {
+    align-items: flex-start;
+}
+
+ul {
+    font-size: larger;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: #424f40;
+}
+
+.work {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #3a4443;
+}
+
+.work h2 {
+
+    color: #eef1ef;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+.work p {
+    text-align: center;
+    color: #9aa29a;
+    font-size: x-large;
+}
+
+.contact {
+    background-color: #eef1ef;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+}
+
+.contact p {
+    text-align: center;
+    font-size: larger;
+
+}
+
+form {
+    text-align: center;
+    font-size: larger;
+    font-family: Montserrat, sans-serif;
+
+}
+
+input {
+    margin-top: 40px;
+    background-color: #eef1ef;
+    border-width: 0px;
+    border-bottom-width: 2px;
+    width: 400px;
+    font-size: large;
+}
+
+.button {
+    background-color: #3a4443;
+    border-width: 2px;
+    color: #eef1ef;
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+    margin-top: 100px;
+}
+
+hr.content {
+    background-color: #3a4443;
+}
+
+a:link,
+a:visited {
+    font-size: larger;
+    font-family: Montserrat, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #3a4443;
+    text-decoration: none
+}
+
+a:link:active,
+a:visited:active {
+    color: #eef1ef;
+}
+
+.sociallink {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.pagelink{
+    text-align: center;
+    padding-top: 0px;
+}
+
+.nav{
+    background-color: #eef1ef;
+}
